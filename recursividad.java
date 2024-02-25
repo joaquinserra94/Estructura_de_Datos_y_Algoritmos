@@ -83,7 +83,7 @@ public class BinarySearchTree {
         else if (x > t.element)
             return contains(x, t.right);
         else
-            return true
+            return true;
     }
 
     public boolean isEmpty() {
